@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: heading;
+    src: url(fonts/Marhey-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: para;
+    src: url(fonts/BadScript-Regular.ttf);
+}
+
+.header{
+    background-image: linear-gradient(to right top, white, rgba(255, 169, 40, 0.781), rgb(221, 231, 74),rgb(59, 255, 59),white);
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: heading;
+    line-height: 45px;
+   
+}
+.header h1{
+    padding-top: 20px;
+    font-weight: 800;
+    color: beige;
+    text-shadow: 4px 4px 3px black;
+}
+
+.nav ul li{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.nav ul{
+    margin-top: 9px;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    color: rgb(41, 34, 34);
+    border: 1.5px solid black;
+    border-radius: 10px 1px 10px 1px;
+    padding: 5px;
+    font-size: 10pt;
+    font-family: heading;
+    font-weight: 700;
+    text-shadow: 2px 2px  white;
+    background-image: linear-gradient(to right top, white, rgba(255, 169, 40, 0.781), rgb(221, 231, 74),rgb(59, 255, 59),white);
+}
+.nav ul .ABOUT{
+    float: right;
+    margin-right: 15PX;
+}
+.nav ul .HOME{
+    margin-left: 50px;
+}
+
+.container {
+    margin: 30px;
+    margin-left: 50px;
+    float: left;
+    width: 95%;
+    min-height: 200px;
+   
+}
+.container .contant{
+    float: left;
+    width: 70%;
+    height: 407px;
+    overflow: hidden;
+    
+}
+.container .img1{
+    float: right;
+    max-width: 40%;
+    height: 400px;
+}
+.container .contant2{
+    float: right;
+    width: 70%;
+    height: 470px;
+    overflow: hidden;
+    margin-top: 60PX;    
+}
+.container .img2{
+    float: left;
+    max-width: 40%;
+    height: 400%;
+    margin-top: 27px;    
+}
+
+.container .contant3{
+    float: left;
+    width: 70%;
+    height: 470px;
+    overflow: hidden;
+    margin-top: 50PX;    
+}
+.container .img3{
+    float: right;
+    max-width: 40%;
+    height: 400%;
+    margin-top: 50px;    
+}
+
+
+#footer-about{
+    float: left;
+    margin-left:4px;
+    margin-right:4px;
+    width: 99%;
+    height: 200%;
+   background-color: rgba(26, 11, 11, 0.938);
+     
+}
+#child-div{
+    float: left;
+    margin-top: 20px;
+    margin-left:50px;
+    width: 40%;
+    height: 30%;
+    color: white;
+    line-height: 1.5;
+    font-family: para;
+    text-align: center;
+}
+
+.table tr th,td{
+    padding-left: 20px;
+
+}
+
+
+table tr th td {
+    margin-top: 80px;
+    margin-left:10px ;
+}
+
+.icons{
+    color: white;
+    margin-top: 100px;
+    margin-left: 60%;
+    line-height: 80px;
+}
+
+
+.header .p2-h1{
+    line-height: 9px;
+    padding-top: 40px;
+}
+
+.p2-main-container img{
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 30px;
+    display: inline;
+    border-radius: 30px;
+}
+button{
+    float: right;
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
+    text-shadow: 2px 2px 2px black;
+    border: 1 solid goldenrod;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, white, rgba(128, 105, 71, 0.781), rgb(85, 88, 31),rgb(75, 74, 33),white);
+}
+#button a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+.contact-body{
+    
+    background-image: linear-gradient(to right, white, rgba(255, 169, 40, 0.781), rgb(221, 231, 74),rgb(59, 255, 59),white);
+}
+fieldset{
+    margin-left: 38%;
+    margin-top: 100px;
+    border: 2px solid whitesmoke;
+    background-color: rgba(255, 255, 255, 0.116);
+    border-radius: 20px;
+    width: fit-content;
+    padding: 50px 50px 80px 50px ;
+    
+}
+form{
+    line-height: 35px;
+    word-spacing: 10px;
+    font-family: para;
+}
+form input, select{
+    float: right;
+    margin-top: 10px;
+    padding:2px;
+    border-radius: 8px;
+    
+    
+}
+form label{
+    float: left;
+    font-weight: bolder;
+    text-shadow: 2px 2px  white;
+}
+form #button{
+    height: 25px;
+    width: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    text-shadow: 2px 2px 2px black;
+    border: 1 solid goldenrod;
+    border-radius: 20px;
+    background-image: linear-gradient(to right top, white, rgba(128, 105, 71, 0.781), rgb(85, 88, 31),rgb(75, 74, 33),white);
+    color: white;
+   
+}
+
+fieldset legend{
+    font-family: heading;
+    text-align: center;
+    color: rgb(41, 34, 34);
+    text-shadow: 2px 2px  white;
+    font-weight: 600;
+}
+
+
+
+
